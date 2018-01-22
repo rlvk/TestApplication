@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="elevation">4dp</dimen>
+
+    <dimen name="edit_text_title_size_big">24sp</dimen>
+    <dimen name="edit_text_input_size_medium">18sp</dimen>
+
+    <dimen name="corner_radius">1dp</dimen>
+    <dimen name="stroke_width">2dp</dimen>
+</resources>
