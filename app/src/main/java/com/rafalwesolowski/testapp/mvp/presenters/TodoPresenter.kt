@@ -24,7 +24,7 @@ constructor(schedulerProvider: SchedulerProvider, private val mRxRealmManager: R
     override fun onViewCreated(view: TodoView) {
         super.onViewCreated(view)
 
-        getView().initAdapter(tasksList)
+        view.initAdapter(tasksList)
 
         refreshRealmObjects()
     }

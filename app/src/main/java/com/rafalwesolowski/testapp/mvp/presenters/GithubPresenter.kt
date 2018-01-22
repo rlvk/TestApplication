@@ -25,7 +25,7 @@ constructor(schedulerProvider: SchedulerProvider, private val mNetworkService: N
     override fun onViewCreated(view: GithubView) {
         super.onViewCreated(view)
 
-        getView().initAdapter(mUsersList)
+        view.initAdapter(mUsersList)
     }
 
     fun observeOnSearchView(searchObservable: Observable<String>) {
